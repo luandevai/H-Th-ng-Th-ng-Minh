@@ -1,0 +1,204 @@
+.work{
+    padding: 100px 0 100px;
+}
+.about-work{
+    padding: 100px 0 100px;
+}
+.work-image {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.work-left-container {
+    padding-top: 100px;
+}
+.work-left-content{
+    position: relative;
+    text-align: end;
+    margin-bottom: 60px;
+}
+.work-right-content{
+    position: relative;
+    margin-bottom: 60px;
+}
+.work-left-content .number, .work-right-content .number{
+    display: inline-flex;
+    border-radius: 10px;
+    border: 1px solid rgba(203, 203, 203, 0.30);
+    background-color: var(--black-color);
+    padding: 2px 21px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 70px;
+    font-family: "Libre Baskerville", serif;
+}
+.border-div {
+    position: absolute;
+    right: 62px;
+    top: 34px;
+    width: 95px;
+    height: 102px;
+    border-top: 1px solid rgba(203, 203, 203, 0.30);
+    border-left: 1px solid rgba(203, 203, 203, 0.30);
+    border-top-left-radius: 5px;
+    z-index: -1;
+}
+.border-div-2 {
+    position: absolute;
+    left: 62px;
+    top: 34px;
+    width: 95px;
+    height: 102px;
+    border-top: 1px solid rgba(203, 203, 203, 0.30);
+    border-right: 1px solid rgba(203, 203, 203, 0.30);
+    border-top-right-radius: 5px;
+    z-index: -1;
+}
+.work-left-content-text{
+    padding: 30px 15px;
+    border: 1px solid rgba(98, 98, 98, 0.68);
+    border-radius: 30px;
+    text-align: center;
+    background-color: var(--black-color);
+}
+.work-left-content-text h6{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px; 
+    margin-bottom: 16px;
+}
+
+
+/* ----------------------------------------
+work 2
+------------------------------------------ */
+.work-2{
+    padding: 100px 0 100px;
+    background: linear-gradient(90deg, #1C1119 0%, #170B3A 100%);
+}
+.work-2-single{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.work-2-single-inner{
+    border-radius: 30px;
+    border: 1px solid var(--secondary-white-color) ;
+    padding: 127px 25px 30px 30px;
+}
+.work-2-single-content a{
+    color: var(--secondary-white-color);
+    font-family: "Libre Baskerville", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+.work-2-single .ribon {
+    position: absolute;
+    top: -40px;
+    left: -55px;
+}
+.ribon{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: var(--praimary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ribon h3 {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    color: var(--white-color);
+    font-size: 40px;
+    font-weight: 700;
+}
+.work-2-car{
+    position: absolute;
+    bottom: 0;
+}
+/* ----------------------------------------
+work 2
+------------------------------------------ */
+
+
+
+/* ----------------------------------------
+responsive
+------------------------------------------ */
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .ribon {
+        width: 120px;
+        height: 120px;
+    }
+    .ribon h3 {
+        right: 30px;
+        bottom: 25px;
+        font-size: 30px;
+    }
+    .work-2-single-inner {
+        padding: 100px 15px 30px 20px;
+    }
+    .work-2-single-content a {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .work {
+        padding: 100px 0 50px;
+    }
+    .work-left-container {
+        padding-top: 0px;
+    }
+    .work-image {
+        display: none;
+    }
+    .work-right-content {
+        margin-bottom: 50px;
+    }
+
+    /* work 2 */
+    .work-2 .common-title-2{
+        margin-bottom: 10px;
+    }
+    .work-2-single {
+        margin-top: 30px !important;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .work {
+        padding: 100px 0 50px;
+    }
+    .work-left-container {
+        padding-top: 0px;
+    }
+    .work-image {
+        display: none;
+    }
+    .work-right-content {
+        margin-bottom: 50px;
+    }
+
+    /* work 2 */
+    .work-2 .common-title-2{
+        margin-bottom: 10px;
+    }
+    .work-2-single {
+        margin-top: 30px !important;
+    }
+}
+/* ----------------------------------------
+responsive
+------------------------------------------ */

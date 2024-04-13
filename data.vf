@@ -1,0 +1,2869 @@
+{
+  "version": {
+    "name": "Initial Version",
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "63067e968cbdb692c97b063a"
+      }
+    ],
+    "folders": {},
+    "_version": 6,
+    "creatorID": 177511,
+    "prototype": {
+      "data": {
+        "name": "Viet travel",
+        "locales": [
+          "vi-VN"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "65cffa948d98bb7342600fe1",
+            "name": "SIngapore",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "sing",
+                "slots": []
+              },
+              {
+                "text": "singapore",
+                "slots": []
+              },
+              {
+                "text": "đi sing",
+                "slots": []
+              },
+              {
+                "text": "tour đi sing",
+                "slots": []
+              },
+              {
+                "text": "tour đi singapore",
+                "slots": []
+              },
+              {
+                "text": "đến sing",
+                "slots": []
+              },
+              {
+                "text": "đi singapore",
+                "slots": []
+              },
+              {
+                "text": "đi du lịch sing",
+                "slots": []
+              },
+              {
+                "text": "du lịch singapore",
+                "slots": []
+              },
+              {
+                "text": "điểm đến singapore",
+                "slots": []
+              },
+              {
+                "text": "ghé thăm đảo quốc sing",
+                "slots": []
+              },
+              {
+                "text": "thăm quan sing",
+                "slots": []
+              },
+              {
+                "text": "ghé thăm singapore",
+                "slots": []
+              },
+              {
+                "text": "bay đi singapore",
+                "slots": []
+              },
+              {
+                "text": "tìm khách sạn tại singapore",
+                "slots": []
+              },
+              {
+                "text": "tìm hiểu lịch sử singapore",
+                "slots": []
+              },
+              {
+                "text": "khám phá vườn quốc gia singapore",
+                "slots": []
+              },
+              {
+                "text": "bay đến đảo quốc sing",
+                "slots": []
+              },
+              {
+                "text": "thăm công viên hoa anh đào singapore",
+                "slots": []
+              },
+              {
+                "text": "đến singapore vào mùa hè",
+                "slots": []
+              },
+              {
+                "text": "thăm sân bay quốc tế singapore",
+                "slots": []
+              },
+              {
+                "text": "tìm hiểu văn hóa singapore",
+                "slots": []
+              },
+              {
+                "text": "du thuyền qua singapore",
+                "slots": []
+              },
+              {
+                "text": "dừng chân tại sing",
+                "slots": []
+              },
+              {
+                "text": "thành phố người nhỏ singapore",
+                "slots": []
+              },
+              {
+                "text": "bản đồ singapore",
+                "slots": []
+              },
+              {
+                "text": "thủ đô singapore",
+                "slots": []
+              },
+              {
+                "text": "điểm đến đông nam á singapore",
+                "slots": []
+              },
+              {
+                "text": "du lịch sing",
+                "slots": []
+              },
+              {
+                "text": "du học tại singapore",
+                "slots": []
+              },
+              {
+                "text": "thăm quần đảo singapore",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "None",
+            "name": "None",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "noteID": null
+          }
+        ],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "programID": "63067e968cbdb692c97b063a",
+            "storage": {},
+            "variables": {},
+            "diagramID": "63067e968cbdb692c97b063a"
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "slotsMap": {},
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [
+          "65cffa948d98bb7342600fe1"
+        ],
+        "goToIntentsSet": [],
+        "usedFunctionsMap": {},
+        "cmsVariables": {
+          "sessions": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "user_id": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "timestamp": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "platform": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "locale": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "Tour": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "tour": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "phone": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "name": {
+            "isSystem": false,
+            "defaultValue": "",
+            "datatype": "any",
+            "isArray": false
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "last_response": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "last_event": {
+            "isSystem": true,
+            "defaultValue": ""
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "defaultValue": ""
+          }
+        }
+      },
+      "settings": {},
+      "platform": "webchat",
+      "type": "chat"
+    },
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "Tour",
+      "tour",
+      "phone",
+      "name",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance"
+    ],
+    "components": [],
+    "manualSave": false,
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "65cffa948d98bb7342600fe1",
+          "name": "SIngapore",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "sing",
+              "slots": []
+            },
+            {
+              "text": "singapore",
+              "slots": []
+            },
+            {
+              "text": "đi sing",
+              "slots": []
+            },
+            {
+              "text": "tour đi sing",
+              "slots": []
+            },
+            {
+              "text": "tour đi singapore",
+              "slots": []
+            },
+            {
+              "text": "đi sing",
+              "slots": []
+            },
+            {
+              "text": "đến sing",
+              "slots": []
+            },
+            {
+              "text": "đi singapore",
+              "slots": []
+            },
+            {
+              "text": "đi du lịch sing",
+              "slots": []
+            },
+            {
+              "text": "du lịch singapore",
+              "slots": []
+            },
+            {
+              "text": "điểm đến singapore",
+              "slots": []
+            },
+            {
+              "text": "ghé thăm đảo quốc sing",
+              "slots": []
+            },
+            {
+              "text": "thăm quan sing",
+              "slots": []
+            },
+            {
+              "text": "ghé thăm singapore",
+              "slots": []
+            },
+            {
+              "text": "bay đi singapore",
+              "slots": []
+            },
+            {
+              "text": "tìm khách sạn tại singapore",
+              "slots": []
+            },
+            {
+              "text": "tìm hiểu lịch sử singapore",
+              "slots": []
+            },
+            {
+              "text": "khám phá vườn quốc gia singapore",
+              "slots": []
+            },
+            {
+              "text": "bay đến đảo quốc sing",
+              "slots": []
+            },
+            {
+              "text": "thăm công viên hoa anh đào singapore",
+              "slots": []
+            },
+            {
+              "text": "đến singapore vào mùa hè",
+              "slots": []
+            },
+            {
+              "text": "thăm sân bay quốc tế singapore",
+              "slots": []
+            },
+            {
+              "text": "tìm hiểu văn hóa singapore",
+              "slots": []
+            },
+            {
+              "text": "du thuyền qua singapore",
+              "slots": []
+            },
+            {
+              "text": "dừng chân tại sing",
+              "slots": []
+            },
+            {
+              "text": "thành phố người nhỏ singapore",
+              "slots": []
+            },
+            {
+              "text": "bản đồ singapore",
+              "slots": []
+            },
+            {
+              "text": "thủ đô singapore",
+              "slots": []
+            },
+            {
+              "text": "điểm đến đông nam á singapore",
+              "slots": []
+            },
+            {
+              "text": "du lịch sing",
+              "slots": []
+            },
+            {
+              "text": "du học tại singapore",
+              "slots": []
+            },
+            {
+              "text": "thăm quần đảo singapore",
+              "slots": []
+            },
+            {
+              "text": "du lịch singapore",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "vi-VN"
+        ],
+        "defaultVoice": "Alexa"
+      },
+      "publishing": {},
+      "platform": "webchat"
+    },
+    "autoSaveFromRestore": false,
+    "_id": "65cff9af181f78db9b9e4f23",
+    "updatedAt": "2024-02-24T02:16:19.472Z",
+    "domains": [
+      {
+        "id": "clspbpvc967pl07pq5tbpawy2",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "63067e968cbdb692c97b063a"
+        ],
+        "rootDiagramID": "63067e968cbdb692c97b063a",
+        "updatedBy": 177511,
+        "updatedAt": "2024-02-24T02:16:22.391Z"
+      }
+    ],
+    "projectID": "65cff9af181f78db9b9e4f22",
+    "rootDiagramID": "63067e968cbdb692c97b063a"
+  },
+  "diagrams": {
+    "63067e968cbdb692c97b063a": {
+      "name": "ROOT",
+      "type": "TOPIC",
+      "zoom": 100,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63068ee2b9d93f34f5d1f11c",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          245.91,
+                          176.44
+                        ]
+                      },
+                      {
+                        "point": [
+                          305.61,
+                          176.44
+                        ]
+                      },
+                      {
+                        "point": [
+                          305.61,
+                          131.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          365.3,
+                          131.19
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            181.26138293106055,
+            154.443928244428
+          ]
+        },
+        "63068ee2b9d93f34f5d1f11a": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "73r23sar",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Chào anh/chị mình cần tìm kiếm tour du lịch đi đâu v ạ 😊"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65cffa278bbc258203dba1bf",
+                  "id": "63068ee2b9d93f34f5d1f11b",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          696.3,
+                          192.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          735.16,
+                          192.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          735.16,
+                          123.56
+                        ]
+                      },
+                      {
+                        "point": [
+                          774.01,
+                          123.56
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63068ee2b9d93f34f5d1f11a"
+        },
+        "63068ee2b9d93f34f5d1f11c": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "steps": [
+              "63068ee2b9d93f34f5d1f11a"
+            ],
+            "color": ""
+          },
+          "nodeID": "63068ee2b9d93f34f5d1f11c",
+          "coords": [
+            530.3017678452849,
+            104.1884935748209
+          ]
+        },
+        "65cffa278bbc258203dba1bf": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "last_utterance"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65cffa278bbc258203dba1c0"
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65cffa278bbc258203dba1c1"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65cffa278bbc258203dba1bf",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "65cffa278bbc258203dba1c2": {
+          "type": "block",
+          "data": {
+            "name": "New Block 2",
+            "steps": [
+              "65cffa278bbc258203dba1bf"
+            ]
+          },
+          "nodeID": "65cffa278bbc258203dba1c2",
+          "coords": [
+            940.0091063448485,
+            44.55514259554241
+          ]
+        },
+        "65cffa3c8bbc258203dba1c9": {
+          "type": "intent",
+          "data": {
+            "name": "",
+            "intent": "65cffa948d98bb7342600fe1",
+            "mappings": [],
+            "availability": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65cffa998bbc258203dba1d4",
+                  "id": "65cffa3c8bbc258203dba1ca",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          412.33,
+                          -181.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          491.93,
+                          -181.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          491.93,
+                          -202.46
+                        ]
+                      },
+                      {
+                        "point": [
+                          571.52,
+                          -202.46
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65cffa3c8bbc258203dba1c9"
+        },
+        "65cffa3c8bbc258203dba1cb": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "65cffa3c8bbc258203dba1c9"
+            ]
+          },
+          "nodeID": "65cffa3c8bbc258203dba1cb",
+          "coords": [
+            328.83929502409325,
+            -203.0627819327595
+          ]
+        },
+        "65cffa998bbc258203dba1d4": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "6b2933as3",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Dạ dây là 1 số tour đi Singapore bên em ạ "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65cffaae8bbc258203dba1e0",
+                  "id": "65cffa998bbc258203dba1d5",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          903.52,
+                          -193.46
+                        ]
+                      },
+                      {
+                        "point": [
+                          1023.09,
+                          -193.46
+                        ]
+                      },
+                      {
+                        "point": [
+                          1023.09,
+                          -431.24
+                        ]
+                      },
+                      {
+                        "point": [
+                          1142.65,
+                          -431.24
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65cffa998bbc258203dba1d4"
+        },
+        "65cffa998bbc258203dba1d6": {
+          "type": "block",
+          "data": {
+            "name": "New Block 4",
+            "steps": [
+              "65cffa998bbc258203dba1d4"
+            ]
+          },
+          "nodeID": "65cffa998bbc258203dba1d6",
+          "coords": [
+            737.5185403071124,
+            -281.4590083478539
+          ]
+        },
+        "65cffaae8bbc258203dba1dd": {
+          "type": "carousel",
+          "data": {
+            "name": "Card",
+            "cards": [
+              {
+                "id": "7h2b33a1k",
+                "title": "Tour Du Lịch Singapore - Du thuyền 5 Sao - Malaysia 4 Ngày 3 Đêm",
+                "description": [
+                  {
+                    "children": [
+                      {
+                        "text": "Giá tour: "
+                      }
+                    ]
+                  }
+                ],
+                "imageUrl": "https://cm4-production-assets.s3.amazonaws.com/1708128971200-tour-sing-mal-du-thuyen.jpg",
+                "buttons": [
+                  {
+                    "id": "kg2cg3a3n",
+                    "name": "Tìm hiểu thêm ",
+                    "intent": null
+                  },
+                  {
+                    "id": "vm2d93a6s",
+                    "name": "Book tour",
+                    "intent": null
+                  }
+                ]
+              },
+              {
+                "id": "mt2c63avy",
+                "title": "",
+                "description": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ],
+                "imageUrl": "https://cm4-production-assets.s3.amazonaws.com/1708130958853-poster_sinmal_kh_hn_8tr990_3mal_-_banner_web.jpg",
+                "buttons": [
+                  {
+                    "id": "vpac3a0n",
+                    "name": "Tìm hiểu thêm ",
+                    "intent": null
+                  },
+                  {
+                    "id": "libh3aj2",
+                    "name": "Book tour",
+                    "intent": null
+                  }
+                ]
+              },
+              {
+                "id": "q93p53alz",
+                "title": "",
+                "description": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ],
+                "imageUrl": "",
+                "buttons": []
+              }
+            ],
+            "layout": "Carousel",
+            "portsV2": {
+              "byKey": {
+                "kg2cg3a3n": {
+                  "id": "65cffad98bbc258203dba1e6",
+                  "target": "65cffe178bbc258203dba1ec",
+                  "type": "",
+                  "data": {}
+                },
+                "vm2d93a6s": {
+                  "id": "65cffaec8bbc258203dba1e8",
+                  "target": "65cfff748bbc258203dba221",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1473.65,
+                          -271.74
+                        ]
+                      },
+                      {
+                        "point": [
+                          2226.14,
+                          -271.74
+                        ]
+                      },
+                      {
+                        "point": [
+                          2226.14,
+                          -1479.92
+                        ]
+                      },
+                      {
+                        "point": [
+                          2978.62,
+                          -1479.92
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "vpac3a0n": {
+                  "id": "65d002bf6f552a67ffea4d82",
+                  "target": "65d002e26f552a67ffea4d88",
+                  "type": "",
+                  "data": {}
+                },
+                "libh3aj2": {
+                  "id": "65d002cb6f552a67ffea4d84",
+                  "target": "65cfff748bbc258203dba221",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1473.65,
+                          -99.74
+                        ]
+                      },
+                      {
+                        "point": [
+                          2226.14,
+                          -99.74
+                        ]
+                      },
+                      {
+                        "point": [
+                          2226.14,
+                          -1479.92
+                        ]
+                      },
+                      {
+                        "point": [
+                          2978.62,
+                          -1479.92
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65cffaae8bbc258203dba1de"
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65cffaae8bbc258203dba1df"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65cffaae8bbc258203dba1dd",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "65cffaae8bbc258203dba1e0": {
+          "type": "block",
+          "data": {
+            "name": "New Block 5",
+            "steps": [
+              "65cffaae8bbc258203dba1dd"
+            ]
+          },
+          "nodeID": "65cffaae8bbc258203dba1e0",
+          "coords": [
+            1307.6517634132156,
+            -458.2372935003446
+          ]
+        },
+        "65cffe178bbc258203dba1eb": {
+          "type": "setV2",
+          "data": {
+            "name": "",
+            "sets": [
+              {
+                "type": "advance",
+                "variable": "tour",
+                "expression": "'Tour Du Lịch Singapore - Du thuyền 5 Sao - Malaysia 4 Ngày 3 Đêm'"
+              }
+            ],
+            "title": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65cffe478bbc258203dba1f3",
+                  "id": "65cffe178bbc258203dba1ed",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1726.85,
+                          -460.82
+                        ]
+                      },
+                      {
+                        "point": [
+                          1772.57,
+                          -460.82
+                        ]
+                      },
+                      {
+                        "point": [
+                          1772.57,
+                          -499.62
+                        ]
+                      },
+                      {
+                        "point": [
+                          1818.28,
+                          -499.62
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65cffe178bbc258203dba1eb"
+        },
+        "65cffe178bbc258203dba1ec": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "65cffe178bbc258203dba1eb"
+            ]
+          },
+          "nodeID": "65cffe178bbc258203dba1ec",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "65cffe478bbc258203dba1f3": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "r82p23ard",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Dạ mình có câu hỏi gì cho tour này ạ "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65cffe798bbc258203dba1fc",
+                  "id": "65cffe478bbc258203dba1f4",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2150.28,
+                          -490.62
+                        ]
+                      },
+                      {
+                        "point": [
+                          2206.39,
+                          -490.62
+                        ]
+                      },
+                      {
+                        "point": [
+                          2206.39,
+                          -503.08
+                        ]
+                      },
+                      {
+                        "point": [
+                          2262.51,
+                          -503.08
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65cffe478bbc258203dba1f3"
+        },
+        "65cffe478bbc258203dba1f5": {
+          "type": "block",
+          "data": {
+            "name": "New Block 6",
+            "steps": [
+              "65cffe478bbc258203dba1f3"
+            ]
+          },
+          "nodeID": "65cffe478bbc258203dba1f5",
+          "coords": [
+            1984.2765228905669,
+            -578.6202068811979
+          ]
+        },
+        "65cffe798bbc258203dba1fc": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "last_utterance"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65cffe8a8bbc258203dba206",
+                  "id": "65cffe798bbc258203dba1fd",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2594.51,
+                          -494.08
+                        ]
+                      },
+                      {
+                        "point": [
+                          2713.12,
+                          -494.08
+                        ]
+                      },
+                      {
+                        "point": [
+                          2713.12,
+                          -1035
+                        ]
+                      },
+                      {
+                        "point": [
+                          2689.12,
+                          -1035
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65cffe798bbc258203dba1fe"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65cffe798bbc258203dba1fc"
+        },
+        "65cffe798bbc258203dba1ff": {
+          "type": "block",
+          "data": {
+            "name": "New Block 7",
+            "steps": [
+              "65cffe798bbc258203dba1fc"
+            ]
+          },
+          "nodeID": "65cffe798bbc258203dba1ff",
+          "coords": [
+            2428.507292121335,
+            -582.0817453427363
+          ]
+        },
+        "65cffe8a8bbc258203dba206": {
+          "type": "generative",
+          "data": {
+            "name": "Response AI",
+            "mode": "prompt",
+            "prompt": "Khách hàng có câu hỏi về tour \"{{[tour].tour}}\"\n\nĐây là câu hỏi của khách hàng :{{[last_utterance].last_utterance}}",
+            "system": "Hãy trả lời câu hỏi của khách hàng dựa theo tour mà khách hàng đang quan tâm lưu ý trả lời ngắn gọn \nCấu trúc câu trả lời rõ ràng\n\nSử dụng Markdown để trình bày câu hỏi cụ thể nhất có thể \n\nhãy thể hiện bạn là 1 chuyên viên tư vấn du lịch cho khách hàng",
+            "maxTokens": 680,
+            "model": "gpt-3.5-turbo",
+            "temperature": 0.05,
+            "notFoundPath": false,
+            "overrideParams": true,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65cffe8a8bbc258203dba207"
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65cffe8a8bbc258203dba208"
+                }
+              },
+              "dynamic": []
+            },
+            "source": "knowledge_base",
+            "instruction": "Hãy trả lời câu hỏi của khách hàng dựa theo tour mà khách hàng đang quan tâm lưu ý trả lời ngắn gọn \nCấu trúc câu trả lời rõ ràng\n\nSử dụng Markdown để trình bày câu hỏi cụ thể nhất có thể \n\nhãy thể hiện bạn là 1 chuyên viên tư vấn du lịch cho khách hàng\n\nLưu ý chỉ phản hồi câu trả lời và thể hiện bạn là người thật không phải AI\n\nsử dụng gạch đầu dòng và double space ở mỗi câu trả lời"
+          },
+          "nodeID": "65cffe8a8bbc258203dba206"
+        },
+        "65cffe8a8bbc258203dba209": {
+          "type": "block",
+          "data": {
+            "name": "New Block 8",
+            "steps": [
+              "65cffe8a8bbc258203dba206",
+              "65cfff358bbc258203dba211",
+              "65cfff4c8bbc258203dba216"
+            ]
+          },
+          "nodeID": "65cffe8a8bbc258203dba209",
+          "coords": [
+            2523.122676736715,
+            -1114.0048222658138
+          ]
+        },
+        "65cfff358bbc258203dba211": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "s32y33a94",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Dạ mình có thêm câu hỏi về sản phẩm không ạ ? "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65cfff358bbc258203dba212"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65cfff358bbc258203dba211"
+        },
+        "65cfff4c8bbc258203dba216": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "7f2zg3asw",
+                "name": "Có",
+                "actions": []
+              },
+              {
+                "id": "pt2zz3ayl",
+                "name": "Không, tôi cần book tour",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": {
+              "types": [],
+              "pathName": "No match",
+              "randomize": false,
+              "reprompts": []
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65cfff4c8bbc258203dba218"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "65cffe478bbc258203dba1f5",
+                  "id": "65cfff4c8bbc258203dba217",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2357.1231182096762,
+                          -818.755016458125
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          1816.7,
+                          -818.755016458125
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          1816.7,
+                          -602.62
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          1984.2766222354162,
+                          -602.62
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          1984.2766222354162,
+                          -578.6200956998205
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "65cfff508bbc258203dba21b",
+                  "type": "",
+                  "target": "65cfff748bbc258203dba21f",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2689.12,
+                          -764.5
+                        ]
+                      },
+                      {
+                        "point": [
+                          2833.37,
+                          -764.5
+                        ]
+                      },
+                      {
+                        "point": [
+                          2833.37,
+                          -1427.92
+                        ]
+                      },
+                      {
+                        "point": [
+                          2977.62,
+                          -1427.92
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "65cfff4c8bbc258203dba216",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "65cfff748bbc258203dba21f": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "903383a1l",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "dạ em cám ơn anh/chị đã quan tâm "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65cfff748bbc258203dba220"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65cfff748bbc258203dba21f"
+        },
+        "65cfff748bbc258203dba221": {
+          "type": "block",
+          "data": {
+            "name": "New Block 9",
+            "steps": [
+              "65cfff748bbc258203dba21f",
+              "65cfff8d8bbc258203dba228"
+            ],
+            "color": "#56b365"
+          },
+          "nodeID": "65cfff748bbc258203dba221",
+          "coords": [
+            3143.6235256331497,
+            -1506.9212193150238
+          ]
+        },
+        "65cfff8d8bbc258203dba228": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "8v3483ar4",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Cho em xin số điện thoại liên lạc với mình ạ "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65d000408bbc258203dba22d",
+                  "id": "65cfff8d8bbc258203dba229",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3309.62,
+                          -1358.92
+                        ]
+                      },
+                      {
+                        "point": [
+                          3338.14,
+                          -1358.92
+                        ]
+                      },
+                      {
+                        "point": [
+                          3338.14,
+                          -1189.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          3314.14,
+                          -1189.31
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65cfff8d8bbc258203dba228"
+        },
+        "65d000408bbc258203dba22d": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "phone"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65d000568bbc258203dba237",
+                  "id": "65d000408bbc258203dba22e",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3314.14,
+                          -1189.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          3345.64,
+                          -1189.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          3345.64,
+                          -1004.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          3321.64,
+                          -1004.31
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65d000408bbc258203dba22f"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65d000408bbc258203dba22d"
+        },
+        "65d000408bbc258203dba230": {
+          "type": "block",
+          "data": {
+            "name": "lấy số điẹn thoại",
+            "steps": [
+              "65d000408bbc258203dba22d"
+            ],
+            "color": "#56b365"
+          },
+          "nodeID": "65d000408bbc258203dba230",
+          "coords": [
+            3148.135757904607,
+            -1268.3098002462875
+          ]
+        },
+        "65d000568bbc258203dba237": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "h73br3ael",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Cho em hỏi tên của mình là gì ạ? "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65d000738bbc258203dba240",
+                  "id": "65d000568bbc258203dba238",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3321.64,
+                          -1004.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          3360.64,
+                          -1004.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          3360.64,
+                          -813.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          3336.64,
+                          -813.06
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65d000568bbc258203dba237"
+        },
+        "65d000568bbc258203dba239": {
+          "type": "block",
+          "data": {
+            "name": "Hỏi tên",
+            "steps": [
+              "65d000568bbc258203dba237"
+            ],
+            "color": "#56b365"
+          },
+          "nodeID": "65d000568bbc258203dba239",
+          "coords": [
+            3155.635757904607,
+            -1083.3098002462875
+          ]
+        },
+        "65d000738bbc258203dba240": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "name"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65d000858bbc258203dba24a",
+                  "id": "65d000738bbc258203dba241",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3336.64,
+                          -812.81
+                        ]
+                      },
+                      {
+                        "point": [
+                          3468.28,
+                          -812.81
+                        ]
+                      },
+                      {
+                        "point": [
+                          3468.28,
+                          -1417.63
+                        ]
+                      },
+                      {
+                        "point": [
+                          3599.92,
+                          -1417.63
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65d000738bbc258203dba242"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65d000738bbc258203dba240"
+        },
+        "65d000738bbc258203dba243": {
+          "type": "block",
+          "data": {
+            "name": "lấy tên ",
+            "steps": [
+              "65d000738bbc258203dba240"
+            ],
+            "color": "#56b365"
+          },
+          "nodeID": "65d000738bbc258203dba243",
+          "coords": [
+            3170.635757904607,
+            -892.0598002462875
+          ]
+        },
+        "65d000858bbc258203dba24a": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "yn3fp3a0p",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "\rDạ, em cám ơn anh chị rất nhiều ạ\r\n\r\n\r\nAnh/chị giúp em kiểm tra thông tin lần cuối ạ \r\n\r\nTên: "
+                      },
+                      {
+                        "id": "name",
+                        "name": "name",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": "\r\n \r\nSố điện thoại: "
+                      },
+                      {
+                        "id": "phone",
+                        "name": "phone",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": "\r\n \r\nTour quan tâm: "
+                      },
+                      {
+                        "id": "tour",
+                        "name": "tour",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65d000858bbc258203dba24b"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65d000858bbc258203dba24a"
+        },
+        "65d000858bbc258203dba24c": {
+          "type": "block",
+          "data": {
+            "name": "New Block 13",
+            "steps": [
+              "65d000858bbc258203dba24a",
+              "65d0010f8bbc258203dba253"
+            ]
+          },
+          "nodeID": "65d000858bbc258203dba24c",
+          "coords": [
+            3765.9175581485206,
+            -1496.627427740744
+          ]
+        },
+        "65d0010f8bbc258203dba253": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "ea3hx3afr",
+                "name": "Đúng rồi",
+                "actions": []
+              },
+              {
+                "id": "zp3id3aad",
+                "name": "Không sai rồi",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": {
+              "types": [],
+              "pathName": "No match",
+              "randomize": false,
+              "reprompts": []
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65d0010f8bbc258203dba255"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "65d001278bbc258203dba25b",
+                  "id": "65d0010f8bbc258203dba254",
+                  "data": {}
+                },
+                {
+                  "id": "65d001158bbc258203dba258",
+                  "type": "",
+                  "target": null
+                }
+              ]
+            }
+          },
+          "nodeID": "65d0010f8bbc258203dba253"
+        },
+        "65d001278bbc258203dba25b": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "el3j63avo",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Dạ bên em sẽ có nhân viên hỗ trợ anh/chị trong 24h 😊"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65d001278bbc258203dba25c"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65d001278bbc258203dba25b"
+        },
+        "65d001278bbc258203dba25d": {
+          "type": "block",
+          "data": {
+            "name": "New Block 14",
+            "steps": [
+              "65d001278bbc258203dba25b",
+              "65d0014f8bbc258203dba264"
+            ]
+          },
+          "nodeID": "65d001278bbc258203dba25d",
+          "coords": [
+            4315.917558148521,
+            -1522.877427740744
+          ]
+        },
+        "65d0014f8bbc258203dba264": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "wz3k83abr",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Cám ơn anh chị đã tin tưởng Viet Tourist ạ"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65d004926f552a67ffea4e72",
+                  "id": "65d0014f8bbc258203dba265",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65d0014f8bbc258203dba264"
+        },
+        "65d002e26f552a67ffea4d87": {
+          "type": "setV2",
+          "data": {
+            "name": "",
+            "sets": [
+              {
+                "type": "advance",
+                "variable": "tour",
+                "expression": "'Tour Du Lịch Singapore - Malaysia 4 Ngày 3 Đêm Khởi Hành Từ Hà Nội'"
+              }
+            ],
+            "title": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "65cffe478bbc258203dba1f5",
+                  "id": "65d002e26f552a67ffea4d89",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65d002e26f552a67ffea4d87"
+        },
+        "65d002e26f552a67ffea4d88": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "65d002e26f552a67ffea4d87"
+            ]
+          },
+          "nodeID": "65d002e26f552a67ffea4d88",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "65d004926f552a67ffea4e71": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://hook.us1.make.com/q4l725dqijcmcal9fdulaxogwov0bond",
+            "body": [
+              {
+                "key": "Phone",
+                "val": "{{[phone].phone}}"
+              },
+              {
+                "key": "Name",
+                "val": "{{[name].name}}"
+              },
+              {
+                "key": "tour",
+                "val": "{{[tour].tour}}"
+              }
+            ],
+            "params": [],
+            "method": "POST",
+            "headers": [],
+            "content": "",
+            "mappings": [],
+            "bodyType": "formData",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65d004926f552a67ffea4e73"
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "65d004926f552a67ffea4e74"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65d004926f552a67ffea4e71"
+        },
+        "65d004926f552a67ffea4e72": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "65d004926f552a67ffea4e71"
+            ]
+          },
+          "nodeID": "65d004926f552a67ffea4e72",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "65d9510dca44717327638190": {
+          "type": "markup_text",
+          "data": {
+            "scale": 1.7117314678294817,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Tạo Intent để nhận diện từ khóa "
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 355,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            },
+            "name": "Block"
+          },
+          "nodeID": "65d9510dca44717327638190",
+          "coords": [
+            1060.5064571082419,
+            -592.8072850457339
+          ]
+        },
+        "65d95168ca44717327638193": {
+          "type": "markup_image",
+          "data": {
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1708740965538-2500.png",
+            "width": 837.6042951257824,
+            "height": 471.1524160082526,
+            "rotate": 0,
+            "name": "Block"
+          },
+          "nodeID": "65d95168ca44717327638193",
+          "coords": [
+            1181.7235514323502,
+            -925.1338395932946
+          ]
+        }
+      },
+      "offsetX": 414.9908936551516,
+      "offsetY": 176.4448574044576,
+      "modified": 1661370006,
+      "children": [],
+      "creatorID": 177511,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "65cffa3c8bbc258203dba1c9"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "65cff9af181f78db9b9e4f24",
+      "diagramID": "63067e968cbdb692c97b063a",
+      "versionID": "65cff9af181f78db9b9e4f23"
+    }
+  },
+  "entities": [],
+  "entityVariants": [],
+  "intents": [
+    {
+      "id": "None",
+      "name": "None",
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "65cffa948d98bb7342600fe1",
+      "name": "SIngapore",
+      "description": "",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    }
+  ],
+  "utterances": [
+    {
+      "id": "65cffa948d98bb7342600fe2",
+      "text": [
+        {
+          "text": [
+            "sing"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fe3",
+      "text": [
+        {
+          "text": [
+            "singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fe4",
+      "text": [
+        {
+          "text": [
+            "đi sing"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fe5",
+      "text": [
+        {
+          "text": [
+            "tour đi sing"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fe6",
+      "text": [
+        {
+          "text": [
+            "tour đi singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fe7",
+      "text": [
+        {
+          "text": [
+            "đi sing"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fe8",
+      "text": [
+        {
+          "text": [
+            "đến sing"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fe9",
+      "text": [
+        {
+          "text": [
+            "đi singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fea",
+      "text": [
+        {
+          "text": [
+            "đi du lịch sing"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600feb",
+      "text": [
+        {
+          "text": [
+            "du lịch singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fec",
+      "text": [
+        {
+          "text": [
+            "điểm đến singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fed",
+      "text": [
+        {
+          "text": [
+            "ghé thăm đảo quốc sing"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fee",
+      "text": [
+        {
+          "text": [
+            "thăm quan sing"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fef",
+      "text": [
+        {
+          "text": [
+            "ghé thăm singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ff0",
+      "text": [
+        {
+          "text": [
+            "bay đi singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ff1",
+      "text": [
+        {
+          "text": [
+            "tìm khách sạn tại singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ff2",
+      "text": [
+        {
+          "text": [
+            "tìm hiểu lịch sử singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ff3",
+      "text": [
+        {
+          "text": [
+            "khám phá vườn quốc gia singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ff4",
+      "text": [
+        {
+          "text": [
+            "bay đến đảo quốc sing"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ff5",
+      "text": [
+        {
+          "text": [
+            "thăm công viên hoa anh đào singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ff6",
+      "text": [
+        {
+          "text": [
+            "đến singapore vào mùa hè"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ff7",
+      "text": [
+        {
+          "text": [
+            "thăm sân bay quốc tế singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ff8",
+      "text": [
+        {
+          "text": [
+            "tìm hiểu văn hóa singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ff9",
+      "text": [
+        {
+          "text": [
+            "du thuyền qua singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ffa",
+      "text": [
+        {
+          "text": [
+            "dừng chân tại sing"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ffb",
+      "text": [
+        {
+          "text": [
+            "thành phố người nhỏ singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ffc",
+      "text": [
+        {
+          "text": [
+            "bản đồ singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ffd",
+      "text": [
+        {
+          "text": [
+            "thủ đô singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600ffe",
+      "text": [
+        {
+          "text": [
+            "điểm đến đông nam á singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342600fff",
+      "text": [
+        {
+          "text": [
+            "du lịch sing"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342601000",
+      "text": [
+        {
+          "text": [
+            "du học tại singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342601001",
+      "text": [
+        {
+          "text": [
+            "thăm quần đảo singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    },
+    {
+      "id": "65cffa948d98bb7342601002",
+      "text": [
+        {
+          "text": [
+            "du lịch singapore"
+          ]
+        }
+      ],
+      "language": "en-us",
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "intentID": "65cffa948d98bb7342600fe1"
+    }
+  ],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [],
+  "responseVariants": [],
+  "responseAttachments": [],
+  "responseDiscriminators": [],
+  "variables": [
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your assistant is running on (voiceflow, alexa, ...).",
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "Tour",
+      "name": "Tour",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "tour",
+      "name": "tour",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "phone",
+      "name": "phone",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "name",
+      "name": "name",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The assistant's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": null,
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2024-02-24T02:14:14.000Z",
+      "updatedAt": "2024-02-24T02:14:14.000Z",
+      "folderID": null,
+      "updatedByID": 177511,
+      "createdByID": 177511
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "functions": [],
+  "functionPaths": [],
+  "functionVariables": [],
+  "project": {
+    "type": "chat",
+    "name": "Viet travel",
+    "image": "",
+    "teamID": "9zk6JNq1kb",
+    "members": [],
+    "privacy": "private",
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 177511,
+    "updatedBy": 177511,
+    "apiPrivacy": "public",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "_id": "65cff9af181f78db9b9e4f22",
+    "updatedAt": "2024-02-24T02:16:22.389Z",
+    "knowledgeBase": {
+      "settings": {
+        "chunkStrategy": {
+          "type": "recursive_text_splitter",
+          "size": 1200,
+          "overlap": 200
+        },
+        "search": {
+          "limit": 3,
+          "metric": "IP"
+        },
+        "summarization": {
+          "prompt": "",
+          "mode": "prompt",
+          "model": "claude-v1",
+          "temperature": 0.1,
+          "system": "You are an FAQ AI chat assistant. Information will be provided to help answer the user's questions. Always summarize your response to be as brief as possible and be extremely concise. Your responses should be fewer than a couple of sentences."
+        }
+      },
+      "documents": {
+        "65d002217c4c2140ee0cec26": {
+          "status": {
+            "type": "SUCCESS",
+            "data": null
+          },
+          "data": {
+            "type": "pdf",
+            "name": "Tour Du Lịch Singapore - Du thuyền 5 Sao - Malaysia 4 Ngày 3 Đêm.pdf"
+          },
+          "updatedAt": "2024-02-17T00:47:29.000Z",
+          "creatorID": 177511,
+          "documentID": "65d002217c4c2140ee0cec26",
+          "s3ObjectRef": "65cff9af181f78db9b9e4f22/Tour Du Lịch Singapore - Du thuyền 5 Sao - Malaysia 4 Ngày 3 Đêm.pdf",
+          "tags": []
+        },
+        "65d003087c4c2140ee0cec27": {
+          "status": {
+            "type": "SUCCESS",
+            "data": null
+          },
+          "data": {
+            "type": "pdf",
+            "name": "Tour Du Lịch Singapore - Malaysia 4 Ngày 3 Đêm Khởi Hành Từ Hà Nội.pdf"
+          },
+          "updatedAt": "2024-02-17T00:51:20.136Z",
+          "creatorID": 177511,
+          "documentID": "65d003087c4c2140ee0cec27",
+          "s3ObjectRef": "65cff9af181f78db9b9e4f22/Tour Du Lịch Singapore - Malaysia 4 Ngày 3 Đêm Khởi Hành Từ Hà Nội.pdf",
+          "tags": []
+        }
+      }
+    },
+    "devVersion": "65cff9af181f78db9b9e4f23",
+    "liveVersion": "65d015cc4d3dfa08cbd2890c"
+  },
+  "_version": "1.2",
+  "variableStates": []
+}

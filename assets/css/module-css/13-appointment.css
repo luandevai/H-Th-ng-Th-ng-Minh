@@ -1,0 +1,378 @@
+.appointment{
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    height: 800px;
+}
+.appointment::after{
+    content: '';
+    max-width: 1840px;
+    height: 740px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 30px;
+    border: 1px solid var(--White, #FBFBFB);
+}
+.appointment-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.appointment-bg img{
+    width: 100%;
+    height: 100%;
+}
+.appointment-bg::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(267deg, #070707 3.68%, rgba(7, 7, 7, 0.00) 66.62%);
+}
+.appointment-content {
+    position: relative;
+    width: 100%;
+    height: 740px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.appointment-content h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.appointment-content p{
+    margin: 30px 0 40px;
+}
+.appointment-content .btn-2 i{
+    background-color: #686760;
+}
+
+
+/* ----------------------------------------
+appointment-2
+----------------------------------------- */
+.appointment-2{
+    position: relative;
+    padding: 140px 0 140px;
+    overflow: hidden;
+}
+.appointment-blank{
+    width: 350px;
+    height: 90px;
+    border-radius: 30px;
+    background: #F6F6F6;
+    position: absolute;
+    z-index: 1;
+}
+.appointment-blank-1{
+    top: -30px;
+    left: -50px;
+}
+.appointment-blank-2{
+    right: -50px;
+    bottom: -30px;
+}
+.appointment-2-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.appointment-2-bg img{
+    height: 100%;
+}
+.appointment-2-text h3{
+    line-height: 65px;
+}
+.appointment-2-btn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* ----------------------------------------
+appointment-2
+----------------------------------------- */
+
+/* ----------------------------------------
+contact page
+----------------------------------------- */
+.contact-page{
+    padding-top: 100px;
+}
+.contact-page-form{
+    position: relative;
+    padding: 50px 30px 50px 30px;
+    border-radius: 30px;
+    border: 1px solid rgba(98, 98, 98, 0.68);
+    background: linear-gradient(90deg, #1C1119 0%, #170B3A 100%);
+    z-index: 1;
+}
+.contact-page-form h4{
+    color: var(--secondary-white-color);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+.contact-page-form form .input-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-page-form form .input-group input{
+    width: 48%;
+    padding: 20px 30px;
+    border-radius: 10px !important;
+    display: inline-block;
+    border: 1px solid var(--secondary-white-color);
+    color: #CBCBCB;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+.contact-page-form form .input-group input::placeholder{
+    color: #CBCBCB;
+}
+.contact-page-form form textarea{
+    width: 100%;
+    height: 160px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid var(--secondary-white-color);
+    background-color: transparent;
+    margin-bottom: 30px;
+    color: #CBCBCB;
+}
+.contact-page-form form button{
+    width: 100%;
+    text-align: center;
+    background-color: var(--praimary-color);
+    color: var(--secondary-white-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    border-radius: 10px;
+    padding: 20px 0;
+    transition: 0.5s;
+}
+.contact-page-form form button:hover{
+    background-color: rgba(var(--praimary-color-grb),0.9);
+}
+.address {
+    background-color: var(--black-color);
+    position: relative;
+    margin-left: 80px;
+    z-index: 1;
+}
+.address h3{
+    color: var(--white-color);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+.address .link-widget-1-list li a {
+    color: #CBCBCB;
+    font-family: "Libre Baskerville", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+    display: flex;
+    gap: 16px;
+}
+.address .link-widget-1-list li a:hover{
+    color: var(--praimary-color);
+}
+.contact-map {
+    position: relative;
+    width: 100%;
+    height: 649px;
+    margin-top: -166px;
+}
+.contact-map iframe{
+    width: 100%;
+    height: 100%;
+}
+/* ----------------------------------------
+contact page
+----------------------------------------- */
+
+
+
+
+/* ----------------------------------------
+responsive
+----------------------------------------- */
+@media only screen and (max-width: 1350px){
+  
+}
+
+
+@media only screen and (max-width: 1200px){
+    .appointment {
+        height: 545px;
+    }
+    .appointment::after {
+        height: 487px;
+    }
+    .appointment-content{
+        height: 480px;
+    }
+    .appointment-content h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    /* appointment 2 */
+    .appointment-2-text h3 {
+        font-size: 28px;
+        line-height: 47px;
+    }
+
+    /* contact page */
+    .address {
+        margin-left: 15px;
+    }
+    .address .link-widget-1-list li a {
+        font-size: 24px;
+        line-height: 50px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .appointment::after{
+        display: none;
+    }
+    .appointment-2-btn {
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+    .appointment-2 {
+        padding: 100px 0 100px;
+    }
+
+    /* contact page */
+    .contact-page-form form .input-group {
+        flex-direction: column;
+    }
+    .contact-page-form form .input-group input {
+        width: 100%;
+    }
+    .contact-page-form {
+        padding: 50px 15px 50px 15px;
+    }
+    .address {
+        background-color: var(--black-color);
+        margin-left: 0;
+        width: 100%;
+        padding: 50px 30px;
+        border-radius: 30px;
+    }
+    .address h3 {
+        font-size: 28px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .address .link-widget-1-list li a {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .appointment{
+        height: 300px;
+        padding: 40px 0px 40px 0px;
+    }
+    .appointment-content {
+        height: 230px;
+    }
+    .appointment::after{
+        display: none;
+    }
+    .appointment-content p {
+        margin: 15px 0 15px;
+    }
+    .appointment-content h3 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .appointment-content p {
+        font-size: 14px;
+    }
+    .appointment-content .btn-2{
+        padding: 7px 45px 7px 15px;
+        font-size: 12px;
+    }
+    .appointment-2-btn {
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+    .appointment-2-text h3 {
+        line-height: 38px;
+        font-size: 22px;
+    }
+
+    /* contact page */
+    .contact-page-form h4 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+    .contact-page-form form .input-group {
+        flex-direction: column;
+    }
+    .contact-page-form form .input-group input {
+        width: 100%;
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .contact-page-form form textarea {
+        height: 150px;
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .contact-page-form form button {
+        font-size: 16px;
+        padding: 8px 0;
+    }
+    .contact-page-form {
+        padding: 50px 15px 50px 15px;
+    }
+    .address {
+        background-color: var(--black-color);
+        margin-left: 0;
+        width: 100%;
+        padding: 50px 30px;
+        border-radius: 30px;
+    }
+    .address h3 {
+        font-size: 28px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .address .link-widget-1-list li a {
+        font-size: 18px;
+        line-height: 40px;
+    }
+}
+/* ----------------------------------------
+responsive
+----------------------------------------- */
+

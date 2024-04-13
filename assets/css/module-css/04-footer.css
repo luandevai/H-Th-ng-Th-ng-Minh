@@ -1,0 +1,320 @@
+.footer-style-1 {
+    padding-top: 100px;
+    position: relative;
+    background-color: #1F1F1F;
+}
+.footer-form form{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer-input{
+    width: 70%;
+    padding: 14px 20px ;
+    background: #FBFBFB;
+    color: var(--black-color);
+    border-radius: 5px;
+}
+.footer-input::placeholder{
+    color: #CBCBCB;
+    font-size: 16px;
+}
+.footer-subscribe{
+    color: #ffffff;
+    padding: 14px 60px 14px 30px !important;
+    font-family: "Lato", sans-serif;
+    font-size: 20px !important;
+    font-weight: 500;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+
+.footer-style-1 .newsletter-title {
+    position: relative;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FBFBFB;
+    font-weight: 400;
+	margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.link-widget-1 h4,.link-widget-2 h4{
+    color: var(--secondary-white-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+ul.link-widget-1-list a {
+    color: #CBCBCB;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}
+ul.link-widget-1-list a:hover {
+    color: var(--praimary-color);
+}
+.link-widget-2 ul.link-widget-1-list a{
+    display: flex;
+    gap: 10px;
+}
+.link-widget-2 ul.link-widget-1-list a i{
+    font-size: 18px;
+}
+
+.footer-media ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 35px;
+}
+.footer-media ul li a{
+    color: var(--black-color);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-white-color);
+    font-size: 28px;
+    transition: 0.5s;
+}
+.footer-media ul li a i{
+    font-weight: 700;
+}
+.footer-media ul li a .icon-x-twitter{
+    font-size: 22px;
+}
+.footer-media ul li a:hover{
+    background-color: var(--praimary-color);
+    color: var(--secondary-white-color);
+}
+
+/* ----------------------------------------
+footer 2
+------------------------------------------- */
+.footer-style-2{
+    position: relative;
+    padding-top: 100px;
+    background: linear-gradient(90deg, #1C1119 0%, #170B3A 100%);
+}
+.star-group{
+    position: absolute;
+    top: 88px;
+    left: 82px;
+}
+.logo-widget{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.footer-style-2 .link-widget-2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer2-location{
+    position: relative;
+    height: 266px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer2-location-content{
+    position: relative;
+}
+.footer2-location-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.footer2-location-content .title-2{
+    margin-top: 60px;
+}
+.footer2-location-content h4 {
+    color: var(--white-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.footer-center{
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer-center-inner{
+    position: relative;
+    padding: 0 40px;
+    width: 351px;
+    height: 414px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-shape-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.footer-center-left, .footer-center-right{
+    position: relative;
+}
+.footer-center-inner ul li a{
+    color: var(--white-color);
+}
+.footer-center-inner ul li a:hover{
+    color: var(--black-color);
+}
+.footer-style-2-copyright{
+    padding: 18px 0;
+    background-color: var(--black-color);
+}
+/* ----------------------------------------
+footer 2
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Responsive
+------------------------------------------- */
+@media only screen and (max-width: 1200px){
+    .footer-style-1 {
+        padding-top: 100px;
+    }
+    ul.link-widget-1-list a {
+        font-size: 17px;
+    }
+
+    /* footer 2 */
+    .footer-center-inner h4{
+        font-size: 22px;
+    }
+    
+}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .footer-center-inner {
+        width: 100%;
+        height: 336px;
+    }
+    .footer-input {
+        width: 100%;
+    }
+    .footer-subscribe{
+        width: 100%;
+    }
+    .footer-style-2 .link-widget-2 {
+        align-items: baseline;
+    }
+
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .footer-style-1 {
+        padding-top: 80px;
+    }
+    .footer-form form {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+    } 
+    .footer-input {
+        width: 100%;
+    }
+    .footer-form form button{
+        width: 100%;
+    }   
+
+    /* footer 2 */
+    .footer-style-2 .link-widget-2 {
+        margin-left: 0;
+    }
+
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .footer-style-1 {
+        padding-top: 80px;
+    }
+    .link-widget-1{
+        margin-bottom: 30px !important;
+    }
+    .link-widget-1 h4, .link-widget-2 h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+    .footer-style-1 .newsletter-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .footer-form form {
+        gap: 5px;
+    }
+    .footer-input {
+        width: 100%;
+        padding: 5px 20px 9px;
+    }
+    .footer-form .btn-2 {
+        width: 100%;
+        margin-top: 10px;
+        padding: 8px 60px 8px 30px !important;
+    }
+    .footer-media ul {
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .footer-media ul li a {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .footer-media ul li a .icon-x-twitter {
+        font-size: 14px;
+    }
+
+    /* footer 2 */
+    .logo-widget{
+        margin-right: 0 !important;
+        margin-bottom: 80px !important;
+    }
+    .footer-style-2 .link-widget-2 {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .footer2-location {
+        height: auto;
+    }
+    .footer-center-inner {
+        height: 370px;
+    }
+    .footer-shape-bg img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+/* ----------------------------------------
+Responsive
+------------------------------------------- */

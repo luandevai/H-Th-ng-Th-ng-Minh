@@ -1,0 +1,336 @@
+.portfolio{
+    padding: 100px 0 100px;
+}
+.portfolio-content{
+    overflow: hidden;
+    border-radius: 31px;
+}
+.portfolio-content:hover .portfolio-image img{
+    transform: scale(1.1);
+}
+.portfolio-image a{
+    width: 100%;
+}
+.portfolio-image a img{
+    width: 100%;
+    border-radius: 31px;
+    transition: 0.5s;
+}
+.portfolio-content-bottom {
+    position: relative;
+    margin-top: -355px;
+   
+}
+.portfolio-content .portfolio-content-inner{
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.46);
+    position: absolute;
+    left: 0;
+    top: 0px;
+    transition: 0.5s;
+}
+.portfolio-content .portfolio-content-inner-content{
+    width: 100%;
+    padding: 0px 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+.portfolio-content .portfolio-content-inner p {
+    font-size: 24px;
+}
+.portfolio-content:hover .portfolio-content-inner{
+    height: 100%;
+}
+
+
+/* ----------------------------------------------
+portfolio-2
+------------------------------------------------ */
+.portfolio-2{
+    padding: 100px 0 70px;
+    background: linear-gradient(90deg, #1C1119 0%, #170B3A 100%);
+}
+.portfolio-2-container{
+    position: relative;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.portfolio-2-image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.portfolio-2-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.portfolio-2-container-overlay{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    border-radius: 30px;
+    transition: .5s ease;
+}
+.portfolio-2-container:hover .portfolio-2-container-overlay{
+    bottom: 0;
+    height: 100%;
+}
+.portfolio-2-container-overlay .overlay-title{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.portfolio-2-container-overlay .overlay-title h5{
+    color: var(--secondary-white-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.portfolio-2 .col-lg-6{
+    position: relative;
+}
+.portfolio-2-round-btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* ----------------------------------------------
+portfolio-2
+------------------------------------------------ */
+
+/* ----------------------------------------------
+project-delails
+------------------------------------------------ */
+.project-delails{
+    padding: 100px 0 100px;
+}
+.project-delails-image{
+    border-radius: 31px;
+}
+.project-delails-image img{
+    border-radius: 31px;
+}
+.project-delails-client{
+    position: relative;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #1C1119 0%, #170B3A 100%);
+    max-width: 1000px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin: -90px auto;
+    z-index: 1;
+}
+.project-delails-client .client-single{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.project-delails-client .client-single .client-single-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border:1px solid #CBCBCB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-delails-client .client-single .client-single-icon i{
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--praimary-color);
+}
+.project-delails-client .client-single .client-single-info h5{
+    color: var(--secondary-white-color);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.project-delails-right-title h3{
+    color: var(--secondary-white-color);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 147px;
+}
+.project-delails-right-content{
+    margin-top: 40px;
+}
+.project-delails-right-content h4{
+    color: var(--secondary-white-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+.project-delails-right-list ul li{
+    position: relative;
+    color:  #CBCBCB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 20px;
+}
+.project-delails-right-list ul li::before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #CBCBCB;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.project-delails-image-container{
+    border-radius: 31px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.project-delails-image-container img{
+    border-radius: 31px;
+    transition: 0.8s;
+}
+.project-delails-image-container:hover img{
+    transform: scale(1.1);
+}
+/* ----------------------------------------------
+project-delails
+------------------------------------------------ */
+
+
+/* ----------------------------------------------
+responsive
+------------------------------------------------ */
+@media only screen and (max-width: 1350px){
+    .portfolio-content-bottom {
+        margin-top: -300px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px){
+    .portfolio-content-bottom {
+        margin-top: -245px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .portfolio-content .portfolio-content-inner-content {
+        padding: 0px 10px 0px;
+    }
+    .portfolio-content .portfolio-content-inner p {
+        font-size: 14px;
+    }
+    .portfolio-content-inner-content .btn-1 {
+        width: 90px;
+        height: 83px;
+        line-height: 15px;
+        padding: 10px;
+        font-size: 12px;
+    }
+    .portfolio-content-bottom {
+        margin-top: -170px;
+    }
+
+    /* project details */
+    .project-delails-client {
+        padding: 0 20px;
+    }
+    .project-delails-client .client-single .client-single-info h5 {
+        font-size: 16px;
+    }
+    .project-delails-right-list {
+        margin-bottom: 30px;
+    }
+    .project-delails-image-container {
+        margin-bottom: 30px;
+    }
+
+    
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .portfolio-content{
+        margin-bottom: 30px;
+    }
+    .portfolio-content-bottom {
+        margin-top: 0;
+    }
+    .portfolio-content .portfolio-content-inner p {
+        font-size: 14px;
+    }
+    .portfolio-content-bottom .portfolio-content-inner p {
+        display: none;
+    }
+    .portfolio-content-bottom .portfolio-content-inner {
+        bottom: 11px;
+    }
+    .portfolio-content-inner-content .btn-1 {
+        width: 80px;
+        height: 80px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .portfolio-2-round-btn {
+        display: none;
+    }
+    .portfolio-image a img {
+        border-radius: 39px;
+    }
+    .portfolio-content .portfolio-content-inner {
+        width: 100%;
+        height: 100% !important;
+    }
+
+     /* project details */
+     .project-delails-client {
+        height: 265px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 20px;
+    }
+    .project-delails-client .client-single .client-single-info h5 {
+        font-size: 16px;
+    }
+    .project-delails-right-title h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .project-delails-right-content h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .project-delails-right-list {
+        margin-bottom: 30px;
+    }
+    .project-delails-image-container {
+        margin-bottom: 30px;
+    }
+    .project-delails-image {
+        height: 250px;
+    }
+    .project-delails-image img{
+        height: 100%;
+    }
+
+}
+/* ----------------------------------------------
+responsive
+------------------------------------------------ */

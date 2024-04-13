@@ -1,0 +1,25 @@
+.terms{
+    padding: 100px 0 60px;
+}
+.terms-content{
+    margin-bottom: 40px;
+}
+.terms-content h4{
+    margin-bottom: 15px;
+}
+.terms-content p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.terms-content ul li i{
+    margin-right: 5px;
+    color: var(--praimary-color);
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .terms-content h4{
+        font-size: 20px;
+    }
+}

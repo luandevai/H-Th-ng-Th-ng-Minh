@@ -1,0 +1,39 @@
+/* Default Color File  */
+
+
+
+:root {
+
+    /* praimary color */
+    --praimary-color: #F70000;
+    --praimary-color-grb: 247, 0, 0;
+
+    /* secondary color*/
+    /* secondary color*/
+   
+    /* white color */
+    --white-color: #ffffff;
+    --white-color-rgb: 255, 255, 255;
+
+    /* secondary white color*/
+    --secondary-white-color: #FBFBFB;
+
+     /* black Color*/
+     --black-color: #070707;
+     --black-color-rgb: 7, 7, 7;
+
+     /* Black color 2 */
+     --black-color2: #231F20;
+     --black-color2-rgb: 35, 31, 32;
+}
+
+
+
+
+
+
+
+
+
+
+

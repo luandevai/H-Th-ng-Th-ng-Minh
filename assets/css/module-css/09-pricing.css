@@ -1,0 +1,176 @@
+.pricing{
+    padding: 100px 0 100px;
+    background: rgba(251, 251, 251, 0.05);
+}
+.pricing-title {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.pricing-title p{
+    margin-top: 20px;
+}
+.pricing-card{
+    padding: 30px 30px;
+    border-radius: 30px;
+    border: 1px solid rgba(98, 98, 98, 0.68);   
+    background-image: url(/assets/images/background/pricing-card-bg.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+.pricing-card:hover{
+    border: 1px solid rgba(237, 41, 41, 0.68);
+}
+.pricing-card-title h5{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--secondary-white-color);
+    margin-bottom: 8px;
+}
+.pricing-card-title h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--secondary-white-color);
+    margin-top: 30px;
+}
+.pricing-card-title h2 sub {
+    bottom: -0.1em;
+    font-size: 24px;
+    font-weight: 400;
+}
+.pricing-card-title{
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(203, 203, 203, 0.30);
+}
+.pricing-card-list{
+    margin: 30px 0 40px;
+}
+.pricing-card-list ul li{
+    margin-bottom: 15px;
+}
+.pricing-card-list ul li:last-child{
+    margin-bottom: 0;
+}
+
+
+/* -----------------------------------------
+pricing 2
+-------------------------------------------- */
+.pricing-2{
+    padding: 100px 0 100px;
+}
+.pricing-2 .common-title-2 h6,.pricing-2 .common-title-2 h2{
+    color: var(--black-color);
+}
+.pricing-2-card{
+    position: relative;
+    padding: 0 30px 30px 30px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #1C1119 0%, #170B3A 100%);
+}
+.pricing-2-info{
+    position: absolute;
+    top: -50px;
+    /* max-width: 360px; */
+    width: 85%;
+    background-color: var(--secondary-white-color);
+    border-top: 20px solid var(--black-color);
+    border-radius: 30px;
+    padding: 50px 0 40px 80px;
+    transition: 0.5s;
+}
+.pricing-2-card:hover .pricing-2-info{
+    border-top: 20px solid var(--praimary-color);
+}
+.pricing-2-info .pricing-card-title h5, .pricing-2-info .pricing-card-title h2, .pricing-2-info .pricing-card-title p{
+    color: var(--black-color);
+}
+.pricing-2-info .pricing-card-title {
+    padding-bottom: 0;
+    border-bottom: 1px solid transparent;
+}
+.pricing-2-card .pricing-card-list {
+    padding-top: 225px;
+    padding-left: 15px;
+}
+/* -----------------------------------------
+pricing 2
+-------------------------------------------- */
+
+
+
+/* -----------------------------------------
+responsive
+-------------------------------------------- */
+@media only screen and (max-width: 1200px){
+    .pricing-card {
+        border-radius: 37px;
+    }
+    .pricing-2-info {
+        max-width: 230px;
+        padding: 35px 0 30px 40px;
+    }
+
+    .pricing-card-list ul li {
+        font-size: 16px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .pricing {
+        padding: 100px 0 70px;
+    }
+    .pricing-card {
+        border-radius: 50px;
+        margin-bottom: 30px;
+    }
+
+    /* pricing 2 */
+    .pricing-2 {
+        padding: 100px 0 50px;
+    }
+    .pricing-2-card{
+        margin-bottom: 50px;
+    }
+    .pricing-2-info {
+        max-width: inherit;
+      width: 91%;
+    }
+    .pricing-card-btn{
+        text-align: left !important;
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .pricing {
+        padding: 100px 0 70px;
+    }
+    .pricing-card {
+        border-radius: 50px;
+        margin-bottom: 30px;
+    }
+
+    .pricing-card-title {
+        text-align: center;
+    }
+    .pricing-card-list {
+        text-align: center;
+    }
+    .pricing-card-btn {
+        text-align: center;
+    }
+    .pricing-2-card{
+        margin-bottom: 50px;
+    }
+    .pricing-2-info {
+        max-width: 82%;
+    }
+}
+/* -----------------------------------------
+responsive
+-------------------------------------------- */

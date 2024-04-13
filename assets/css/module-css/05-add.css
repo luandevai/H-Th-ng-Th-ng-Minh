@@ -1,0 +1,91 @@
+.add{
+    position: relative;
+    height: 152px;
+    background-color: var(--praimary-color);
+    transform: rotate(3deg);
+    z-index: 1;
+}
+.add::after{
+    content: '';
+    width: 10px;
+    height: 100%;
+    background-color: var(--praimary-color);
+    transform: rotate(3deg);
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+}
+.add::before {
+    content: '';
+    width: 10px;
+    height: 100%;
+    background-color: var(--praimary-color);
+    transform: rotate(3deg);
+    position: absolute;
+    left: -9px;
+    bottom: 0;
+}
+.add-image{
+    height: 152px;
+    display: flex;
+    align-items: center;
+}
+
+/* add 2 */
+.banner-add {
+    position: relative;
+    margin-top: -30px;
+}
+.add-content{
+    width: 100vw;
+    height: 200px;
+    overflow: hidden;
+}
+.add-content{
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    
+}
+@keyframes scrolling{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100vw);
+    }
+}
+.add-content .add-content-inner{
+    width: 100vw;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 50px;
+    animation: scrolling 20s linear infinite;
+}
+/* add 2 */
+
+
+/* ----------------------------------------
+Responsive
+------------------------------------------- */
+@media only screen and (max-width: 1350px){
+    .add{
+        margin-top: 50px;
+    }
+    .add::after {
+        right: -9px;
+    }
+    .banner-add {
+        margin-top: 80px;
+    }
+	
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .add-image {
+        justify-content: center;
+    }
+}

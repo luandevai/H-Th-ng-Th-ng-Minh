@@ -1,0 +1,67 @@
+/* ----------------------------------------------------------
+TABLE OF CONTENT         
+-------------------------------------------------------------
+* 1. imported styles 
+* 2. preloader styles 
+* 3. header styles
+* 4. banner styles 
+* 5. add styles 
+* 6. about styles 
+* 7. service styles 
+* 8. how do we work styles
+* 9. pricing styles 
+* 10. portfolio styles 
+* 11. testimonial styles 
+* 12. blog styles 
+* 13. appointment styles 
+* 14. main-footer styles 
+* 15. Blog details styles 
+* 16. portfolio details styles 
+* 17. service details styles 
+* 18. contact page styles 
+* 19. global styles 
+* 20. color styles 
+-------------------------------------------------------------
+TABLE OF CONTENT         
+------------------------------------------------------------ */
+
+
+/* modul css */
+@import url('module-css/01-header.css');
+@import url('module-css/02-mobile-menu.css');
+@import url('module-css/03-banner.css');
+@import url('module-css/04-footer.css');
+@import url('module-css/05-add.css');
+@import url('module-css/06-about.css');
+@import url('module-css/07-service.css');
+@import url('module-css/08-work.css');
+@import url('module-css/09-pricing.css');
+@import url('module-css/10-portfolio.css');
+@import url('module-css/11-testimonial.css');
+@import url('module-css/12-blog.css');
+@import url('module-css/13-appointment.css');
+@import url('module-css/14-error.css');
+@import url('module-css/15-faq.css');
+@import url('module-css/16-terms.css');
+
+
+/*  */
+@import url('01-global.css');
+@import url('all.min.css');
+@import url('fancy-box-carusol.css');
+@import url('flaticon.css');
+@import url('animate.css');
+@import url('icomoon.css');
+@import url('jquery.fancybox.min.css');
+@import url('swiper.min.css');
+@import url('rtl.css');
+@import url('elpath.css');
+@import url('nice-select.css');
+@import url('jquery-ui-1.9.2.custom.min.css');
+@import url('owl.css');
+@import url('magnific-popup.css');
+
+
+
+
+
